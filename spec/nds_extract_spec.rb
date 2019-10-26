@@ -11,9 +11,9 @@ describe 'gross_for_director method' do
 end
 
 describe 'The directors_database method can be processed by the directors_totals method' do
-  # it 'which returns a Hash describing director to total' do
-  #   expect(directors_totals([{ :name => "Test Director", :movies => []}])).to be_a(Hash)
-  # end
+   it 'which returns a Hash describing director to total' do
+     expect(directors_totals([{ :name => "Test Director", :movies => []}])).to be_a(Hash)
+   end
 
   describe "and correctly totals the directors' totals" do
     let(:expected) {
