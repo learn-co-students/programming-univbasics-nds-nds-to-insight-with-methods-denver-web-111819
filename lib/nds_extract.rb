@@ -26,14 +26,13 @@ def directors_totals(nds)
     row_index += 1
   end
 
-  binding.pry
-
   result
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
 def gross_for_director(director_data)
+  binding.pry
   director_data.values.sum
 end
 
